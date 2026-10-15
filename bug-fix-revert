@@ -1,0 +1,24 @@
+Command:
+curl -s https://api.github.com/repos/Omtambe99/mcino-Introduction-to-Git-and-GitHub-fork/pulls/1
+
+Terminal output:
+{
+  "number": 1,
+  "html_url": "https://github.com/Omtambe99/mcino-Introduction-to-Git-and-GitHub-fork/pull/1",
+  "state": "open",
+  "title": "Add command and terminal output for pull request",
+  "head": {
+    "label": "Omtambe99:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "Omtambe99/mcino-Introduction-to-Git-and-GitHub-fork",
+      "fork": true
+    }
+  },
+  "base": {
+    "ref": "main",
+    "repo": {
+      "full_name": "Omtambe99/mcino-Introduction-to-Git-and-GitHub-fork"
+    }
+  }
+}
