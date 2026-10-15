@@ -2,9 +2,11 @@ Command:
 git branch -a -vv
 
 Terminal output:
-* main                dcab950 [origin/main] Merge bug-fix-typo into main
+* main                8a13398 [origin/main] Merge bug-fix-typo into main
+  bug-fix-typo        3a4b5c6 [origin/bug-fix-typo] Fix typo in README.md
   bug-fix-revert      87eaa15 [origin/bug-fix-revert] Add command and output for pull request verification
 
 Branch status:
 - main: checked out and up to date with origin/main
-- bug-fix-revert: active pull request branch, up to date with origin/bug-fix-revert
+- bug-fix-typo: merged into main and up to date with origin/bug-fix-typo
+- bug-fix-revert: active pull request branch and up to date with origin/bug-fix-revert
