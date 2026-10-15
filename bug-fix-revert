@@ -1,0 +1,5 @@
+Command:
+curl -s https://api.github.com/repos/Omtambe99/mcino-Introduction-to-Git-and-GitHub-fork/pulls/1
+
+Terminal output:
+Pull request verification will be updated after the pull request is created.
