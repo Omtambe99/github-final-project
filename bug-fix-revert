@@ -1,23 +1,27 @@
 Command:
-curl -s https://api.github.com/repos/Omtambe99/github-final-project/pulls/1
+curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?head=Omtambe99:bug-fix-revert&state=all"
 
 Terminal output:
-{
-  "number": 1,
-  "html_url": "https://github.com/Omtambe99/github-final-project/pull/1",
-  "state": "open",
-  "head": {
-    "label": "Omtambe99:bug-fix-revert",
-    "ref": "bug-fix-revert",
-    "repo": {
-      "full_name": "Omtambe99/github-final-project",
-      "fork": true
-    }
-  },
-  "base": {
-    "ref": "main",
-    "repo": {
-      "full_name": "Omtambe99/github-final-project"
+[
+  {
+    "number": 1,
+    "html_url": "https://github.com/Omtambe99/github-final-project/pull/1",
+    "state": "open",
+    "head": {
+      "label": "Omtambe99:bug-fix-revert",
+      "ref": "bug-fix-revert",
+      "repo": {
+        "full_name": "Omtambe99/github-final-project",
+        "fork": true,
+        "parent": {
+          "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+        }
+      }
+    },
+    "base": {
+      "repo": {
+        "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+      }
     }
   }
-}
+]
