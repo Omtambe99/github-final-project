@@ -1,0 +1,23 @@
+Command:
+curl -s https://api.github.com/repos/Omtambe99/github-final-project/pulls/1
+
+Terminal output:
+{
+  "number": 1,
+  "html_url": "https://github.com/Omtambe99/github-final-project/pull/1",
+  "state": "open",
+  "head": {
+    "label": "Omtambe99:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "Omtambe99/github-final-project",
+      "fork": true
+    }
+  },
+  "base": {
+    "ref": "main",
+    "repo": {
+      "full_name": "Omtambe99/github-final-project"
+    }
+  }
+}
