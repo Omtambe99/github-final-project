@@ -1,0 +1,10 @@
+Command:
+git branch -a -vv
+
+Terminal output:
+* main                dcab950 [origin/main] Merge bug-fix-typo into main
+  bug-fix-revert      87eaa15 [origin/bug-fix-revert] Add command and output for pull request verification
+
+Branch status:
+- main: checked out and up to date with origin/main
+- bug-fix-revert: active pull request branch, up to date with origin/bug-fix-revert
