@@ -1,0 +1,11 @@
+Command:
+curl -s https://api.github.com/repos/Omtambe99/mcino-Introduction-to-Git-and-GitHub-fork
+
+Terminal output:
+{
+  "full_name": "Omtambe99/mcino-Introduction-to-Git-and-GitHub-fork",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
